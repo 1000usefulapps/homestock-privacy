@@ -1,13 +1,11 @@
 # homestock-privacy
 
-Public **privacy policy** site for the **Home stock** Android app, deployed with **GitHub Pages**.
+Privacy policy for **Home stock** — same layout as [ExpieryTracker](https://github.com/1000usefulapps/ExpieryTracker) (`index.html` at repo root).
 
-**Live URL:** https://1000usefulapps.github.io/homestock-privacy/
+**Live site:** https://1000usefulapps.github.io/homestock-privacy/
 
-## Edit policy
+## GitHub Pages
 
-Change **`docs/index.html`**, then commit and push. GitHub Actions publishes the `docs/` folder automatically.
+Use **Settings → Pages → Build and deployment → Branch:** `main`, folder **/ (root)** — same as ExpieryTracker.
 
-## First-time GitHub setup
-
-In the repository: **Settings → Pages → Build and deployment → Source:** choose **GitHub Actions**. After the next push to `main`, the workflow `Deploy GitHub Pages` will publish the site.
+Edit **`index.html`**, commit, and push.
