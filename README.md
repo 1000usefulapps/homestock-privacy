@@ -4,23 +4,17 @@ Public privacy policy for the **Home stock** (Homestock) Android app.
 
 ## Publish on GitHub
 
-1. Create a new repository (for example `homestock-privacy`) under your organization.
-2. Push this folder:
+The policy is published at **https://github.com/1000usefulapps/homestock-privacy**.
 
-   ```bash
-   cd homestock-privacy
-   git init
-   git add PRIVACY_POLICY.md README.md
-   git commit -m "Add privacy policy"
-   git branch -M main
-   git remote add origin https://github.com/<ORG>/homestock-privacy.git
-   git push -u origin main
-   ```
+To update:
 
-3. App / Play Console URL (human-readable):  
-   `https://github.com/<ORG>/homestock-privacy/blob/main/PRIVACY_POLICY.md`
-
-   Ensure `PRIVACY_POLICY_URL` in the Android app’s `build.gradle.kts` matches the final public URL.
+```bash
+cd homestock-privacy
+# edit PRIVACY_POLICY.md
+git add PRIVACY_POLICY.md
+git commit -m "Update privacy policy"
+git push
+```
 
 ## Optional: GitHub Pages
 
