@@ -1,21 +1,13 @@
 # homestock-privacy
 
-Public privacy policy for the **Home stock** (Homestock) Android app.
+Public **privacy policy** site for the **Home stock** Android app, deployed with **GitHub Pages**.
 
-## Publish on GitHub
+**Live URL:** https://1000usefulapps.github.io/homestock-privacy/
 
-The policy is published at **https://github.com/1000usefulapps/homestock-privacy**.
+## Edit policy
 
-To update:
+Change **`docs/index.html`**, then commit and push. GitHub Actions publishes the `docs/` folder automatically.
 
-```bash
-cd homestock-privacy
-# edit PRIVACY_POLICY.md
-git add PRIVACY_POLICY.md
-git commit -m "Update privacy policy"
-git push
-```
+## First-time GitHub setup
 
-## Optional: GitHub Pages
-
-Enable Pages from the `main` branch and use a clean HTML mirror if you prefer a branded page; update the app URL accordingly.
+In the repository: **Settings → Pages → Build and deployment → Source:** choose **GitHub Actions**. After the next push to `main`, the workflow `Deploy GitHub Pages` will publish the site.
